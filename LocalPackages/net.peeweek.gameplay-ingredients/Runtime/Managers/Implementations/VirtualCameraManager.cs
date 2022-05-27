@@ -13,11 +13,11 @@ namespace GameplayIngredients
         public Camera Camera { get; private set; }
         public CinemachineBrain Brain { get; private set; }
 
-        private void Awake()
-        {
-            Camera = GetComponent<Camera>();
-            Brain = GetComponent<CinemachineBrain>();
-        }
+        //private void Awake()
+        //{
+        //    Camera = GetComponent<Camera>();
+        //    Brain = GetComponent<CinemachineBrain>();
+        //}
 
     }
 }
